@@ -34,14 +34,3 @@ def check_eligibility():
     except:
         print("❌ Invalid input! Please enter numbers only for age/salary.")   
 check_eligibility()        
-# if not :- agr bas condition galat hone pe message print karana hoto if not ka use kro
-# aagar aapko condition true hone pe kuch dusra message print karan h aor condition false hone
-#pe kuch aor mssage print karana ho to if not ke sath esle bhi use krna pdega 
-
-#try:- try ke andr code likhne ye hota h ki agr kahi user input krate ho aor vo number ke jgh pe 
-# word me likh deta h to vo pura code crash nhi hota vo except me jo aapne messege likha hota h
-# vo show kar deta h 
-
-
-#.strip().lower():- strip ka kam hai start ya end me agr user ne space de diya h to hta dega
-# aor lower ka kam h agr user capital leter ya samal letter me input diya h to bhi samaj lega
